@@ -16,11 +16,11 @@ plugins:
     type: "fast_forward"
     args:
       upstream:
-        - addr: tls://8.8.8.8
+        - addr: https://8.8.8.8/dns-query
         # dial_addr: "8.8.8.8"
           trusted: true
           enable_pipeline: true
-        - addr: tls://8.8.4.4
+        - addr: https://1.1.1.1/dns-query
           trusted: true
           enable_pipeline: true
         # UDP: 8.8.8.8, 208.67.222.222:443
