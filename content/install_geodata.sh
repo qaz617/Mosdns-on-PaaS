@@ -12,8 +12,8 @@
 
 DAT_PATH=${DAT_PATH:-/etc/mosdns}
 
-DOWNLOAD_LINK_GEOIP="https://github.com/v2fly/geoip/releases/latest/download/geoip.dat"
-DOWNLOAD_LINK_GEOSITE="https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat"
+DOWNLOAD_LINK_GEOIP="https://github.com/qaz617/geoip/releases/latest/download/geoip.dat"
+DOWNLOAD_LINK_GEOSITE="https://github.com/qaz617/v2ray-rules-dat/releases/latest/download/geosite.dat"
 file_ip='geoip.dat'
 file_dlc='dlc.dat'
 dir_tmp="$(mktemp -d)"
