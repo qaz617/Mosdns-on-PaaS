@@ -1,4 +1,4 @@
-# For detailed configuration guide(In Chinese): https://irine-sistiana.gitbook.io/mosdns-wiki/
+# For detailed configuration guide(In Chinese): https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v4/
 
 log:
   level: info
@@ -6,10 +6,8 @@ log:
 data_providers:
   - tag: geosite
     file: "/etc/mosdns/dlc.dat"
-    auto_reload: true
   - tag: geoip
     file: "/etc/mosdns/geoip.dat"
-    auto_reload: true
 
 plugins:
   - tag: "forward_upstream"
